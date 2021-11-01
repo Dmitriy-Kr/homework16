@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    color: black;
+    background-color: cornflowerblue;
+}
+/*AUTH*/
+.auth{
+    width: 260px;
+    padding: 20px;
+    margin: 20px auto;
+    background-color: #be7e7e;
+}
+.auth-title{
+    margin: 0 0 15px;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+}
+/*form-group*/
+.form-group{
+    margin-bottom: 10px;
+}
+/*Input*/
+.input{
+    display: block;
+    padding: 8px 10px;
+    width: 238px;
+    background-color: bisque;
+    border: 1px solid gray;
+    font-family: inherit;
+    font-size: 15px;
+    line-height: 1.5;
+}
+.input:focus{
+    outline: none;
+    border-color: aqua;
+}
+
+/*btn*/
+.btn{
+    display: block;
+    width: 260px;
+    border: none;
+    background-color: blueviolet;
+    padding: 10px;
+    font-family: inherit;
+    font-size: inherit;
+}
+.btn:focus{
+    outline: none;
+    }
+.btn:hover, .btn:focus{
+    background-color: #6f22b5;
+    cursor: pointer;
+}
+.btn:active{
+    background-color: #39115d;
+}
